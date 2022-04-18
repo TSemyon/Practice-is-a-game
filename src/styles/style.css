@@ -1,0 +1,62 @@
+body {
+    margin: 0px;
+}
+#field {
+    width: 800px;
+    height: 800px;
+    background-color: rgb(226, 226, 226);
+    position: relative;
+}
+
+#player {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(18, 228, 175);
+    position: absolute;
+    /* z-index: 2; */
+}
+
+#enemy {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(245, 31, 77);
+    position: absolute;
+    /* z-index: 1; */
+}
+#random-enemy {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(245, 31, 77);
+    position: absolute;
+    /* z-index: 1; */
+}
+#trap {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    position: absolute;
+}
+
+#menu-life {
+    width: 150px;
+    height: 800px;
+    box-sizing: border-box;
+    background-color: rgb(245, 245, 245);
+    position: relative;
+    left: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px
+}
+
+.life {
+    width: 25px;
+    height: 25px;
+    box-sizing: border-box;
+    border: 25px solid transparent; 
+    border-top: 25px solid rgb(18, 228, 175);
+    margin-bottom: 5px;
+    background-color: red;
+}
